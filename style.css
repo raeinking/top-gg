@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    background-color: rgb(7, 4, 7);
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    height:8vh;
+}
+
+.burger {
+    width:40px;
+    height: 40px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-right: 70px;
+}
+.a,p {
+    color :white;
+    margin-top:50px;
+    letter-spacing: 1px;
+}
+
+.h {
+    padding: 20px;
+    color:white;
+}
+
+.container1 {
+    background-color: rgb(110, 110, 206);
+    height:60vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+h2 {
+    color:white;
+}
+
+svg {
+    cursor:pointer;
+}
+
+.serch {
+    background-color:white;
+    padding:10px;
+    margin-top:50px;
+}
+
+input {
+    border:none;
+    font-size:20px;
+    outline: none;
+}
+
+.container2 {
+    display:flex;
+    justify-content: center;
+    background-color:rgb(218, 169, 169);
+    height: 1000px;
+}
+
+.bots {
+    display:grid;
+    width: 900px;
+    height: 1000px;
+    background-color:white;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap :20px;
+    
+
+}
+.bots .grid1 {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.288);
+}
+
+.bots .grid1 img{
+    height: 100px;
+    width:150px;
+}
+.bots .grid1 p {
+    color:black;
+    top:-50px;
+    position:relative;
+}
+.bots .grid1 input{
+    padding:5px 60px;
+    border:2px solid green;
+    transition:all 0.8s ease;
+    cursor:pointer;
+    border-radius: 20px;
+}
+.bots .grid1 input:hover{
+    background:green;
+
+}
+
+
+a {
+    color:white;
+}
