@@ -334,3 +334,11 @@ svg {
 a {
     color:white;
 }
+
+.inputs {
+    height:120px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+}
