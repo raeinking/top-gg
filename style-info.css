@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:80px;
+    
+}
+
+.burger {
+    display:none;
+}
+.h {
+    padding: 20px;
+    color:white;
+    cursor:default;
+}
+.container1 {
+    background-color: rgb(46, 45, 45);
+    width: 100%;
+    height: 1000px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+.container1 .header {
+    background-color:rgb(29, 27, 27);
+    height: 130px;
+    width: 90%;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container1 .header img {
+    height:100%;
+}
+.container1 .header span{
+    margin-left:10px;
+    color:white;
+    font-size:50px;
+}
+.container1 .about-bot {
+    background-color:rgb(29, 27, 27);
+    height:440px;
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    
+}
+
+.container1 .about-bot textarea {
+    background-color:rgb(29, 27, 27);
+    height:90%;
+    width:90%;
+    color:rgb(216, 214, 214);
+    outline:none;
+   border:none;
+   letter-spacing:0.8px;
+}
+
+.container1 .databot {
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    color:rgb(216, 214, 214);
+}
+
+.container1 .databot hr {
+    border: 1px solid rgb(56, 55, 55);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container1 .databot .about-dl {
+    background-color:rgb(29, 27, 27);
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    color:rgb(216, 214, 214);
+    padding: 10px;
+}
+.container1 .databot .about-dl span {
+    margin-left: 60px;
+}

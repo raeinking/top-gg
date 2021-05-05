@@ -148,15 +148,11 @@ input {
 
 textarea {
     width:200px;
-    height:60px;
+    height:48px;
     text-align:center;
     position: relative;
     border-radius: 20px;
     top: 10px;
     background-color:rgb(142, 183, 221);
-    vertical-align:middle;
-}
-
-textarea::placeholder {
-    vertical-align:center;
+    text-align:center;
 }
